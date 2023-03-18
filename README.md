@@ -1,16 +1,20 @@
 # api_final
 api final
 
+### Описание:
+
+Данный проект является бэкэндом проекта социальной сети Yatube, написанным на django. С помощью него в послесдствии могут быть разработаны фронтэнд, мобильное приложение и др. Но уже сейчас с приложением можно общаться на языке json запросов. Оно предоставляет почти все стандартные функции социальной сети: создание и просмотр постов, комментариев и подписок.
+
 ### Как запустить проект:
 
 Клонировать репозиторий и перейти в него в командной строке:
 
 ```
-git clone https://github.com/yandex-praktikum/kittygram_plus.git
+git clone https://github.com/dmk0n/api_final_yatube
 ```
 
 ```
-cd kittygram_plus
+cd api_final_yatube
 ```
 
 Cоздать и активировать виртуальное окружение:
@@ -36,6 +40,10 @@ pip install -r requirements.txt
 Выполнить миграции:
 
 ```
+cd yatube_api
+```
+
+```
 python3 manage.py migrate
 ```
 
@@ -44,3 +52,5 @@ python3 manage.py migrate
 ```
 python3 manage.py runserver
 ```
+
+### Примеры запросов:
